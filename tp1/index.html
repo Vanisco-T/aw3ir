@@ -1,23 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TP1</title>
-  
-  <!-- Link to External CSS -->
-  <link rel="stylesheet" href="./cv.css" />
+  <title>CV - Ingénieur d'études et développement</title>
+  <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
-  <nav>
-    <a href="index.html">🏠 Home</a> / <a href="experiences/index.html">Expériences</a>
-  </nav>
+  <!-- Header Section with Image -->
+  <header>
+    <img src="../experiences/images/galillee.jpeg" alt="Photo de Profil" class="profile-picture" />
+    <h1>Vanisco NTOUSSE</h1>
+    <p>Ingénieur d'études et développement</p>
+  </header>
 
-  <h1>TP 1 - Introduction</h1>
-  <p>Welcome to the TP1 page! Here, you can find details about my experiences and various projects.</p>
-  <img src="images/galilee.png" alt="Galilee Logo" />
+  <!-- Personal Information Section -->
+  <section class="personal-info">
+    <table>
+      <tr>
+        <td><strong>Adresse :</strong> 93 Villetaneuse</td>
+        <td><strong>Situation :</strong> En couple</td>
+      </tr>
+      <tr>
+        <td><strong>Email :</strong> <a href="mailto:tvanisco@gmail.com">tvanisco@gmail.com</a></td>
+        <td><strong>Permis :</strong> Permis B</td>
+      </tr>
+    </table>
+  </section>
 
-  <h2><a href="experiences/index.html">Expériences</a></h2>
+  <!-- Formations Section avec lien vers formations.html -->
+  <section class="formations">
+    <h2><a href="formations.html">Formations</a></h2>
+    <ul>
+      <li><strong>2016 :</strong> Master 3IR à l'université Paris XIII</li>
+      <li><strong>2014 :</strong> Licence Telecom à l'université Paris XIII</li>
+      <li><strong>2011 :</strong> Bac S</li>
+    </ul>
+  </section>
+
+  <!-- Competences Section -->
+  <section class="competences">
+    <h2>Compétences</h2>
+    <ul>
+      <li><strong>Développement :</strong> JAVA 7, HTML</li>
+      <li><strong>Base de données :</strong> MySQL, PostgreSQL</li>
+      <li><strong>Réseaux :</strong> IPv6, LAN, WIFI</li>
+      <li><strong>Langues :</strong> Anglais (bilingue), Français (langue maternelle)</li>
+    </ul>
+  </section>
+
+  <!-- Experiences Section avec lien vers experiences.html -->
+  <section class="experiences">
+    <h2><a href="experiences.html">Expériences</a></h2>
+    <ul>
+      <li><strong>2016 :</strong> <img src="./images/orange.png" alt="Orange Logo" class="logo" /> Stage de fin d'études chez Orange</li>
+      <li><strong>2014 :</strong> <img src="./images/edf.jpeg" alt="EDF Logo" class="logo" /> Stage chez EDF</li>
+    </ul>
+  </section>
+
+  <!-- Centres d'intérêts Section -->
+  <section class="interests">
+    <h2>Centres d'intérêts</h2>
+    <ul>
+      <li><strong>Sport :</strong> Running, Volley-ball</li>
+      <li><strong>Culture :</strong> Cinéma, Musée</li>
+      <li><strong>Voyages :</strong> Angleterre, Espagne</li>
+    </ul>
+  </section>
 </body>
 </html>

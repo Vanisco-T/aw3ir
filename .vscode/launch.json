@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/home/vanisco/m2p13/aw/aw3ir/tp1/experiences/index.html"
+            "file": "/home/vanisco/m2p13/aw/aw3ir/tp1/index.html"
         }
     ]
 }
