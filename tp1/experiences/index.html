@@ -5,39 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Expériences</title>
 
-  <!-- CSS Styling -->
-  <style>
-    body {
-      background-color: #e9ebee;
-      font-family: 'Arial', sans-serif;
-      font-size: 16px;
-      color: #333;
-      margin: 0 auto;
-      max-width: 1000px;
-      padding: 20px;
-    }
-    h1 {
-      font-size: 28px;
-      font-weight: bold;
-      color: #2c3e50;
-    }
-    p {
-      line-height: 1.6;
-    }
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-  </style>
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-  <h1>Expériences</h1>
-  <p>Here are some key experiences and tools used:</p>
+  <nav>
+    <a href="../index.html">🏠 Home</a> / Expériences
+  </nav>
 
-  <p>Outils utilisés :</p>
-  <ul>
-    <li>GitHub</li>
-    <li>VSCode</li>
-  </ul>
+  <h1>Mes Expériences</h1>
+
+  <!-- Experience 1 -->
+  <div class="experience-card">
+    <h3>Développeur Fullstack (Apprentissage)</h3>
+    <p><strong>PowerkSoft</strong> - Janvier 2023 à Decembre 2023</p>
+    <p>Analyse, conception, modélisation, implémentation et déploiement d’un système de réservation. Participation au pipeline CI/CD.</p>
+    <ul>
+      <li>Technologies utilisées : TypeScript, NestJS, ReactJS, NodeJS, MongoDB</li>
+      <li>CI/CD, AWS (Amplify, EC2), HTML/CSS</li>
+    </ul>
+  </div>
+
+  <!-- Experience 2 -->
+  <div class="experience-card">
+    <h3>Développeur Front-end (Stage)</h3>
+    <p><strong>Kliner</strong> - Mai 2022 à Septembre 2022</p>
+    <p>Participation au développement front-end de l’application Kliner, intégration du module de paiement avec Stripe JS.</p>
+    <ul>
+      <li>Technologies utilisées : ReactJS, Bootstrap, Axios, HTML/CSS</li>
+      <li>API integration, Documentation writing</li>
+    </ul>
+  </div>
+
+  <!-- Experience 3 -->
+  <div class="experience-card">
+    <h3>Projet Académique - Système IoT</h3>
+    <p><strong>Université de Paris</strong> - Septembre 2023 à Juin 2024</p>
+    <p>Développement d’une application IoT pour la détection de la qualité de l’air, avec gestion cloud et configuration système.</p>
+    <ul>
+      <li>Technologies utilisées : C, IoT devices, AWS</li>
+      <li>Cloud Configuration, System Administration</li>
+    </ul>
+  </div>
 </body>
 </html>
