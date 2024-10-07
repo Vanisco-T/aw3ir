@@ -1,5 +1,4 @@
 # Configurer Github pour héberger vos TP
-
 GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions [Git](https://fr.wikipedia.org/wiki/Git).
 
 https://fr.wikipedia.org/wiki/GitHub
