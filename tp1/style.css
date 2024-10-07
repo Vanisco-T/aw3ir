@@ -1,85 +1,59 @@
-/* General Styles */
+/* General styling */
 body {
-    background-color: #f4f7f8;
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
     color: #333;
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 20px;
   }
   
-  /* Navigation */
-  nav a {
-    text-decoration: none;
-    color: #2980b9;
-    font-weight: bold;
-    margin-right: 15px;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Headings */
   h1, h2 {
-    color: #2c3e50;
-    font-weight: bold;
     text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
   }
   
-  h1 {
-    font-size: 32px;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: #333;
   }
   
-  /* Paragraphs */
-  p {
-    line-height: 1.6;
-    text-align: justify;
-  }
-  
-  /* Lists */
-  ul {
-    list-style: disc;
-    padding-left: 20px;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-  }
-  
-  /* Images */
-  img {
-    max-width: 150px;
-    display: block;
-    margin: 20px auto;
-  }
-  
-  /* Card Style for Experiences */
-  .experience-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
+  /* Specific section styling */
+  .personal-info table {
+    width: 50%;
+    margin: 0 auto;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .experience-card h3 {
-    font-size: 20px;
+  a {
     color: #2980b9;
+    text-decoration: none;
   }
   
-  .experience-card p {
-    font-size: 14px;
-    color: #666;
+  a:hover {
+    text-decoration: underline;
   }
   
-  .experience-card ul {
-    list-style: circle;
+  /* Experience logos */
+  .logo {
+    max-width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .interests table td {
+    width: 50%;
   }
   
